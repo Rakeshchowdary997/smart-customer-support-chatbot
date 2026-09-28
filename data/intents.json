@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "id": "account_access",
+      "name": "Account Access Issues",
+      "keywords": ["login", "password", "access", "account", "locked", "forgot"],
+      "examples": [
+        "I can't login to my account",
+        "I forgot my password",
+        "My account is locked",
+        "I'm unable to access my account"
+      ],
+      "responses": [
+        "I understand you're having trouble accessing your account. Let me help you with that.",
+        "Account access issues can be resolved quickly. I'll guide you through the steps."
+      ],
+      "escalate": false
+    },
+    {
+      "id": "billing_issue",
+      "name": "Billing Issues",
+      "keywords": ["charge", "payment", "invoice", "billing", "refund", "price"],
+      "examples": [
+        "I've been charged twice",
+        "Why am I being charged?",
+        "I want a refund",
+        "How much is the subscription?"
+      ],
+      "responses": [
+        "I can help you with billing questions. Let me check your account.",
+        "Billing issues are important to us. I'll investigate this right away."
+      ],
+      "escalate": true
+    },
+    {
+      "id": "technical_issue",
+      "name": "Technical Issues",
+      "keywords": ["bug", "error", "crash", "not working", "broken", "issue", "problem"],
+      "examples": [
+        "The app keeps crashing",
+        "I'm getting an error message",
+        "This feature isn't working",
+        "The page won't load"
+      ],
+      "responses": [
+        "I'm sorry you're experiencing technical difficulties. Let's troubleshoot together.",
+        "Technical issues can be frustrating. Let me help you resolve this."
+      ],
+      "escalate": true
+    },
+    {
+      "id": "feature_inquiry",
+      "name": "Feature Inquiry",
+      "keywords": ["feature", "capability", "how to", "can i", "does", "available"],
+      "examples": [
+        "What features are available?",
+        "Can I export data?",
+        "How do I use feature X?",
+        "Is this available in my plan?"
+      ],
+      "responses": [
+        "Great question! I can help you understand our features better.",
+        "I'm happy to explain how our features work for you."
+      ],
+      "escalate": false
+    },
+    {
+      "id": "subscription",
+      "name": "Subscription Management",
+      "keywords": ["subscription", "plan", "upgrade", "downgrade", "cancel", "renewal"],
+      "examples": [
+        "How do I upgrade my plan?",
+        "I want to cancel my subscription",
+        "What's included in the premium plan?",
+        "When does my subscription renew?"
+      ],
+      "responses": [
+        "I can help you manage your subscription.",
+        "Let me provide information about your subscription options."
+      ],
+      "escalate": false
+    },
+    {
+      "id": "general_inquiry",
+      "name": "General Inquiry",
+      "keywords": ["hello", "hi", "help", "info", "information", "question"],
+      "examples": [
+        "Hello",
+        "Can you help me?",
+        "I have a question",
+        "Tell me about your service"
+      ],
+      "responses": [
+        "Hello! I'm here to help. What can I assist you with?",
+        "Welcome! I'd be happy to help you today."
+      ],
+      "escalate": false
+    }
+  ]
+}
