@@ -1,0 +1,74 @@
+{
+  "faq": [
+    {
+      "id": "faq_001",
+      "question": "How do I reset my password?",
+      "answer": "To reset your password: 1) Click 'Forgot Password' on the login page, 2) Enter your email address, 3) Check your email for a reset link, 4) Follow the link and create a new password, 5) Login with your new password.",
+      "keywords": ["password", "reset", "forgot"],
+      "category": "account_access"
+    },
+    {
+      "id": "faq_002",
+      "question": "Why is my account locked?",
+      "answer": "Your account may be locked due to multiple failed login attempts for security reasons. To unlock your account: 1) Click 'Unlock Account' on the login page, 2) Verify your identity, 3) Create a new password, 4) Your account will be unlocked immediately.",
+      "keywords": ["locked", "unlock", "account"],
+      "category": "account_access"
+    },
+    {
+      "id": "faq_003",
+      "question": "How do I update my profile?",
+      "answer": "To update your profile: 1) Log in to your account, 2) Go to Settings > Profile, 3) Edit your information, 4) Click 'Save Changes'. Your profile will be updated within seconds.",
+      "keywords": ["profile", "update", "settings"],
+      "category": "account_access"
+    },
+    {
+      "id": "faq_004",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept the following payment methods: Credit Cards (Visa, Mastercard, American Express), Debit Cards, PayPal, and Bank Transfers. All payments are encrypted and secure.",
+      "keywords": ["payment", "methods", "accept"],
+      "category": "billing_issue"
+    },
+    {
+      "id": "faq_005",
+      "question": "How do I get a refund?",
+      "answer": "To request a refund: 1) Go to Account > Billing > Order History, 2) Find the transaction you want refunded, 3) Click 'Request Refund', 4) Provide a reason, 5) Submit your request. Refunds are processed within 5-7 business days.",
+      "keywords": ["refund", "money back"],
+      "category": "billing_issue"
+    },
+    {
+      "id": "faq_006",
+      "question": "What should I do if I encounter an error?",
+      "answer": "If you encounter an error: 1) Take a screenshot of the error message, 2) Clear your browser cache, 3) Try a different browser, 4) Restart your device, 5) If the issue persists, contact our support team with the error details.",
+      "keywords": ["error", "bug", "problem"],
+      "category": "technical_issue"
+    },
+    {
+      "id": "faq_007",
+      "question": "How do I export my data?",
+      "answer": "To export your data: 1) Go to Settings > Data Export, 2) Select the data type you want to export, 3) Choose your preferred format (CSV, JSON, PDF), 4) Click 'Export', 5) Download your file. This feature is available for Premium users.",
+      "keywords": ["export", "data", "download"],
+      "category": "feature_inquiry"
+    },
+    {
+      "id": "faq_008",
+      "question": "Can I change my plan?",
+      "answer": "Yes, you can change your plan anytime: 1) Go to Settings > Subscription, 2) Click 'Change Plan', 3) Select your desired plan, 4) Review the changes, 5) Click 'Confirm'. Changes take effect immediately or on your next billing cycle.",
+      "keywords": ["plan", "upgrade", "downgrade"],
+      "category": "subscription"
+    },
+    {
+      "id": "faq_009",
+      "question": "When will I be charged for my subscription?",
+      "answer": "Your subscription will be renewed automatically on the same date each month (or year, depending on your plan). You'll receive an email reminder 3 days before your renewal date. To view your billing cycle, go to Settings > Subscription.",
+      "keywords": ["charge", "billing", "renewal"],
+      "category": "subscription"
+    },
+    {
+      "id": "faq_010",
+      "question": "How do I cancel my subscription?",
+      "answer": "To cancel your subscription: 1) Go to Settings > Subscription, 2) Click 'Cancel Subscription', 3) Select your reason for cancellation, 4) Click 'Confirm Cancellation'. You'll retain access until the end of your current billing period.",
+      "keywords": ["cancel", "subscription"],
+      "category": "subscription"
+    }
+  ]
+}
