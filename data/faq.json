@@ -1,74 +1,64 @@
 {
   "faq": [
     {
-      "id": "faq_001",
+      "id": "faq_login_1",
+      "question": "I cannot login to my account",
+      "answer": "To fix login issues, please try the following:\n1. Verify you're using the correct email address\n2. Use the 'Forgot Password' option to reset your password\n3. Clear your browser cache and cookies\n4. Try using a different browser\n5. If the issue persists, contact our support team",
+      "category": "account_access"
+    },
+    {
+      "id": "faq_password_1",
       "question": "How do I reset my password?",
-      "answer": "To reset your password: 1) Click 'Forgot Password' on the login page, 2) Enter your email address, 3) Check your email for a reset link, 4) Follow the link and create a new password, 5) Login with your new password.",
-      "keywords": ["password", "reset", "forgot"],
+      "answer": "To reset your password:\n1. Go to the login page\n2. Click 'Forgot Password'\n3. Enter your email address\n4. Check your email for the password reset link\n5. Click the link and create a new password\n6. Login with your new password",
       "category": "account_access"
     },
     {
-      "id": "faq_002",
-      "question": "Why is my account locked?",
-      "answer": "Your account may be locked due to multiple failed login attempts for security reasons. To unlock your account: 1) Click 'Unlock Account' on the login page, 2) Verify your identity, 3) Create a new password, 4) Your account will be unlocked immediately.",
-      "keywords": ["locked", "unlock", "account"],
-      "category": "account_access"
-    },
-    {
-      "id": "faq_003",
-      "question": "How do I update my profile?",
-      "answer": "To update your profile: 1) Log in to your account, 2) Go to Settings > Profile, 3) Edit your information, 4) Click 'Save Changes'. Your profile will be updated within seconds.",
-      "keywords": ["profile", "update", "settings"],
-      "category": "account_access"
-    },
-    {
-      "id": "faq_004",
-      "question": "What payment methods do you accept?",
-      "answer": "We accept the following payment methods: Credit Cards (Visa, Mastercard, American Express), Debit Cards, PayPal, and Bank Transfers. All payments are encrypted and secure.",
-      "keywords": ["payment", "methods", "accept"],
+      "id": "faq_billing_1",
+      "question": "I was charged twice - what should I do?",
+      "answer": "If you've been charged twice, please follow these steps:\n1. Check your bank/card statement to confirm the duplicate charge\n2. Contact our billing support team immediately\n3. Provide us with the following details:\n   - Transaction dates\n   - Amount charged\n   - Email address used\n   - Order/Invoice numbers\n4. We will investigate and process a refund if applicable within 5-7 business days",
       "category": "billing_issue"
     },
     {
-      "id": "faq_005",
-      "question": "How do I get a refund?",
-      "answer": "To request a refund: 1) Go to Account > Billing > Order History, 2) Find the transaction you want refunded, 3) Click 'Request Refund', 4) Provide a reason, 5) Submit your request. Refunds are processed within 5-7 business days.",
-      "keywords": ["refund", "money back"],
+      "id": "faq_refund_1",
+      "question": "How do I request a refund?",
+      "answer": "To request a refund:\n1. Log into your account\n2. Go to 'Billing' or 'Payment History'\n3. Find the transaction you want to refund\n4. Click 'Request Refund'\n5. Provide a reason for the refund\n6. Submit your request\n\nOur support team will review your request within 24-48 hours and respond to you. Refunds typically take 5-7 business days to process.",
       "category": "billing_issue"
     },
     {
-      "id": "faq_006",
-      "question": "What should I do if I encounter an error?",
-      "answer": "If you encounter an error: 1) Take a screenshot of the error message, 2) Clear your browser cache, 3) Try a different browser, 4) Restart your device, 5) If the issue persists, contact our support team with the error details.",
-      "keywords": ["error", "bug", "problem"],
+      "id": "faq_crash_1",
+      "question": "The app keeps crashing, what should I do?",
+      "answer": "If the app crashes repeatedly, try these solutions:\n1. Update the app to the latest version\n2. Restart your device\n3. Clear app cache (Settings > App > Clear Cache)\n4. Uninstall and reinstall the app\n5. Check your internet connection\n6. Try on a different device to test\n\nIf the issue continues, please contact support with your device model and app version.",
       "category": "technical_issue"
     },
     {
-      "id": "faq_007",
-      "question": "How do I export my data?",
-      "answer": "To export your data: 1) Go to Settings > Data Export, 2) Select the data type you want to export, 3) Choose your preferred format (CSV, JSON, PDF), 4) Click 'Export', 5) Download your file. This feature is available for Premium users.",
-      "keywords": ["export", "data", "download"],
+      "id": "faq_plans_1",
+      "question": "What's the difference between the plans?",
+      "answer": "Our plans offer different features and limits:\n\n**Basic Plan ($9/month)**\n- Up to 10 projects\n- Basic analytics\n- Email support\n\n**Pro Plan ($29/month)**\n- Unlimited projects\n- Advanced analytics\n- Priority email support\n- Custom integrations\n\n**Enterprise Plan (Custom pricing)**\n- Everything in Pro\n- Dedicated account manager\n- Phone support\n- Custom solutions\n\nYou can upgrade/downgrade anytime. The pricing is pro-rated.",
+      "category": "subscription"
+    },
+    {
+      "id": "faq_upgrade_1",
+      "question": "How do I upgrade my subscription?",
+      "answer": "To upgrade your subscription:\n1. Log into your account\n2. Go to 'Settings' > 'Subscription' or 'Billing'\n3. Click 'Upgrade Plan'\n4. Select the plan you want\n5. Review the new price (pro-rated based on current billing cycle)\n6. Complete the payment\n7. Your upgrade will be active immediately\n\nYou can change your plan anytime without penalties.",
+      "category": "subscription"
+    },
+    {
+      "id": "faq_export_1",
+      "question": "Can I export my data?",
+      "answer": "Yes, you can export your data in multiple formats:\n\n1. Log into your account\n2. Go to 'Settings' > 'Data & Privacy'\n3. Click 'Export My Data'\n4. Choose format (CSV, JSON, or PDF)\n5. Select what data to include\n6. Click 'Download'\n\nYour data will be prepared and available for download. This typically takes a few minutes depending on the data volume.",
       "category": "feature_inquiry"
     },
     {
-      "id": "faq_008",
-      "question": "Can I change my plan?",
-      "answer": "Yes, you can change your plan anytime: 1) Go to Settings > Subscription, 2) Click 'Change Plan', 3) Select your desired plan, 4) Review the changes, 5) Click 'Confirm'. Changes take effect immediately or on your next billing cycle.",
-      "keywords": ["plan", "upgrade", "downgrade"],
-      "category": "subscription"
+      "id": "faq_privacy_1",
+      "question": "What is your privacy policy?",
+      "answer": "We take privacy seriously. Our Privacy Policy covers:\n\n- How we collect and use your data\n- Your rights regarding your data\n- How we protect your information\n- Data retention periods\n- How to contact us about privacy\n\nYou can read our full Privacy Policy at: www.example.com/privacy\n\nIf you have privacy concerns, contact us at privacy@example.com",
+      "category": "general_inquiry"
     },
     {
-      "id": "faq_009",
-      "question": "When will I be charged for my subscription?",
-      "answer": "Your subscription will be renewed automatically on the same date each month (or year, depending on your plan). You'll receive an email reminder 3 days before your renewal date. To view your billing cycle, go to Settings > Subscription.",
-      "keywords": ["charge", "billing", "renewal"],
-      "category": "subscription"
-    },
-    {
-      "id": "faq_010",
-      "question": "How do I cancel my subscription?",
-      "answer": "To cancel your subscription: 1) Go to Settings > Subscription, 2) Click 'Cancel Subscription', 3) Select your reason for cancellation, 4) Click 'Confirm Cancellation'. You'll retain access until the end of your current billing period.",
-      "keywords": ["cancel", "subscription"],
-      "category": "subscription"
+      "id": "faq_support_1",
+      "question": "How can I contact support?",
+      "answer": "You can reach our support team in several ways:\n\n**Email:** support@example.com (Response within 24 hours)\n\n**Live Chat:** Available Monday-Friday, 9 AM - 6 PM EST\n\n**Phone:** +1-800-SUPPORT (Mon-Fri, 9 AM - 6 PM EST)\n\n**Help Center:** Visit our knowledge base at help.example.com\n\n**Status Page:** Check our system status at status.example.com",
+      "category": "general_inquiry"
     }
   ]
 }

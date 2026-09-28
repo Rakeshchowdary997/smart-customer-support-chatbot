@@ -3,98 +3,91 @@
     {
       "id": "account_access",
       "name": "Account Access Issues",
-      "keywords": ["login", "password", "access", "account", "locked", "forgot"],
+      "description": "User cannot access their account",
       "examples": [
-        "I can't login to my account",
+        "I cannot login to my account",
         "I forgot my password",
         "My account is locked",
-        "I'm unable to access my account"
+        "I can't access my profile",
+        "Login not working",
+        "Password reset failed",
+        "Account locked out"
       ],
-      "responses": [
-        "I understand you're having trouble accessing your account. Let me help you with that.",
-        "Account access issues can be resolved quickly. I'll guide you through the steps."
-      ],
-      "escalate": false
+      "keywords": ["login", "password", "access", "account", "locked", "forgot", "sign in"]
     },
     {
       "id": "billing_issue",
       "name": "Billing Issues",
-      "keywords": ["charge", "payment", "invoice", "billing", "refund", "price"],
+      "description": "Issues related to billing and payments",
       "examples": [
-        "I've been charged twice",
-        "Why am I being charged?",
-        "I want a refund",
-        "How much is the subscription?"
+        "I was charged twice",
+        "Why was I charged?",
+        "I don't recognize this charge",
+        "Billing issue",
+        "Can I get a refund?",
+        "Wrong amount charged",
+        "Invoice error"
       ],
-      "responses": [
-        "I can help you with billing questions. Let me check your account.",
-        "Billing issues are important to us. I'll investigate this right away."
-      ],
-      "escalate": true
+      "keywords": ["billing", "charge", "payment", "refund", "invoice", "transaction", "money"]
     },
     {
       "id": "technical_issue",
       "name": "Technical Issues",
-      "keywords": ["bug", "error", "crash", "not working", "broken", "issue", "problem"],
+      "description": "Technical problems and errors",
       "examples": [
         "The app keeps crashing",
-        "I'm getting an error message",
-        "This feature isn't working",
-        "The page won't load"
+        "I'm getting an error",
+        "The app won't load",
+        "Technical problem",
+        "System error",
+        "Page not loading",
+        "App not responding"
       ],
-      "responses": [
-        "I'm sorry you're experiencing technical difficulties. Let's troubleshoot together.",
-        "Technical issues can be frustrating. Let me help you resolve this."
-      ],
-      "escalate": true
+      "keywords": ["crash", "error", "bug", "technical", "not working", "broken", "issue"]
     },
     {
       "id": "feature_inquiry",
       "name": "Feature Inquiry",
-      "keywords": ["feature", "capability", "how to", "can i", "does", "available"],
+      "description": "Questions about features and functionality",
       "examples": [
+        "How do I use this feature?",
         "What features are available?",
-        "Can I export data?",
-        "How do I use feature X?",
-        "Is this available in my plan?"
+        "Can I export my data?",
+        "Feature question",
+        "How does this work?",
+        "What can I do with this?",
+        "Is there a feature for..."
       ],
-      "responses": [
-        "Great question! I can help you understand our features better.",
-        "I'm happy to explain how our features work for you."
-      ],
-      "escalate": false
+      "keywords": ["feature", "function", "how to", "use", "capability", "available"]
     },
     {
       "id": "subscription",
       "name": "Subscription Management",
-      "keywords": ["subscription", "plan", "upgrade", "downgrade", "cancel", "renewal"],
+      "description": "Questions about plans and subscriptions",
       "examples": [
         "How do I upgrade my plan?",
-        "I want to cancel my subscription",
-        "What's included in the premium plan?",
-        "When does my subscription renew?"
+        "What's the difference between plans?",
+        "Can I downgrade my subscription?",
+        "Subscription plans",
+        "Plan pricing",
+        "Cancel subscription",
+        "Upgrade or downgrade"
       ],
-      "responses": [
-        "I can help you manage your subscription.",
-        "Let me provide information about your subscription options."
-      ],
-      "escalate": false
+      "keywords": ["plan", "subscription", "upgrade", "downgrade", "pricing", "premium"]
     },
     {
       "id": "general_inquiry",
       "name": "General Inquiry",
-      "keywords": ["hello", "hi", "help", "info", "information", "question"],
+      "description": "General questions and information requests",
       "examples": [
-        "Hello",
-        "Can you help me?",
-        "I have a question",
-        "Tell me about your service"
+        "What is your privacy policy?",
+        "How can I contact support?",
+        "General question",
+        "Company information",
+        "Terms and conditions",
+        "Help information"
       ],
-      "responses": [
-        "Hello! I'm here to help. What can I assist you with?",
-        "Welcome! I'd be happy to help you today."
-      ],
-      "escalate": false
+      "keywords": ["help", "information", "support", "contact", "policy", "terms"]
     }
   ]
 }
